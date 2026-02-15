@@ -1,0 +1,82 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Retirement Countdown feature graphic</title>
+  <desc id="desc">Dark, techy banner showing the Retirement Countdown app name and a stylized time-until-retirement widget.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="40%" stop-color="#071831"/>
+      <stop offset="100%" stop-color="#04121f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d1ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="chipBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="500" fill="url(#bg)"/>
+  <rect x="80" y="70" width="864" height="360" rx="32" fill="#020617" opacity="0.18"/>
+
+  <!-- Left text block -->
+  <g transform="translate(120,140)">
+    <text x="0" y="0" fill="#e5f1ff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="46" font-weight="700" letter-spacing="0.06em" text-transform="uppercase">
+      RETIREMENT
+    </text>
+    <text x="0" y="60" fill="#e5f1ff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800" letter-spacing="0.08em">
+      COUNTDOWN
+    </text>
+
+    <text x="0" y="120" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">
+      A focused, privacy-first dashboard that turns your
+    </text>
+    <text x="0" y="146" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">
+      retirement date into a live plan with real-time timers,
+    </text>
+    <text x="0" y="172" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">
+      milestones, widgets, and motivating quotes.
+    </text>
+
+    <!-- Bullet strip -->
+    <g transform="translate(0,210)" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">
+      <text x="0" y="0">100% offline</text>
+      <circle cx="125" cy="-6" r="3" fill="#4b5563"/>
+      <text x="140" y="0">One-time upgrade</text>
+      <circle cx="290" cy="-6" r="3" fill="#4b5563"/>
+      <text x="305" y="0">No account required</text>
+    </g>
+  </g>
+
+  <!-- Right countdown widget -->
+  <g transform="translate(570,120)" filter="url(#shadow)">
+    <rect x="0" y="0" width="330" height="230" rx="24" fill="url(#chipBg)" stroke="rgba(148,163,184,0.6)"/>
+
+    <!-- Stacked countdown lines without box, vertically centered -->
+    <g transform="translate(55,18)">
+
+      <text x="110" y="60" text-anchor="middle" fill="#f9fafb" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="34">
+        1531 Days
+      </text>
+
+      <text x="110" y="100" text-anchor="middle" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">
+        4y
+      </text>
+      <text x="110" y="136" text-anchor="middle" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">
+        2m
+      </text>
+      <text x="110" y="172" text-anchor="middle" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">
+        12d
+      </text>
+    </g>
+  </g>
+
+  <!-- Accent orbs -->
+  <circle cx="940" cy="60" r="46" fill="url(#accent)" opacity="0.12"/>
+  <circle cx="80" cy="430" r="70" fill="url(#accent)" opacity="0.08"/>
+</svg>
