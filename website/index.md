@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Retirement Countdown"
+show_feature_graphic: true
 ---
 
 ## Core Features
@@ -76,6 +77,8 @@ Retirement Countdown is built for professionals, planners, and teams who want a 
 
 <a id="faq"></a>
 
+<section class="faq" markdown="1">
+
 ### What does Retirement Countdown do?
 
 Retirement Countdown displays the time remaining to your selected retirement date in years, months, and days. It also offers milestone tracking, professional tools, and a glanceable home screen widget.
@@ -99,3 +102,5 @@ Retirement Countdown is available as a mobile app. Check your device's app store
 ### How do I get support?
 
 For questions or to report issues, please open an issue in this repository or contact the project maintainers using the support details in the app store listing.
+
+</section>

@@ -9,7 +9,7 @@ permalink: /privacy/
 - **Effective Date:** 02-14-2026
 - **Application Name:** Retirement Countdown
 - **Developer:** Michael Davis
-- **Contact Email:** retirement-countdown@gmail.com
+- **Contact Email:** retirement.counter@gmail.com
 
 ## 1. INTRODUCTION
 
@@ -156,4 +156,4 @@ Continued use of the Application after changes constitutes acceptance of the rev
 For questions regarding this Policy, please contact:
 
 - **Name:** Michael Davis
-- **Email:** retirement-countdown@gmail.com
+- **Email:** retirement.counter@gmail.com

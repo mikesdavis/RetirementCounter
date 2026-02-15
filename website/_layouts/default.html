@@ -18,8 +18,11 @@
       </div>
       <div class="hero">
         <div class="container hero-inner">
-          <h1 class="hero-title">{{ site.title }}</h1>
-          <p class="hero-sub">{{ site.description }}</p>
+        {% if page.show_feature_graphic %}
+        <figure class="hero-graphic-wrapper hero-graphic-left">
+          <img class="hero-graphic" src="{{ '/assets/images/feature-graphic.svg' | relative_url }}" alt="Retirement Countdown feature graphic">
+        </figure>
+        {% endif %}
         </div>
       </div>
     </header>
