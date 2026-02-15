@@ -36,5 +36,3 @@ Effective date: 2026-02-08
 
 9. Contact
 - For questions about this policy or requests concerning personal data, please contact the app support email listed on the store listing.
-
-This is a generic policy. Consult a legal advisor to create a policy tailored to your app and region.
