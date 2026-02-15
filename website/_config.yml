@@ -1,6 +1,6 @@
 title: "Retirement Countdown"
 description: "A focused, privacy-first dashboard that turns your retirement date into a live plan with real-time timers, milestones, widgets, and motivating quotes."
-baseurl: ""
+baseurl: "/RetirementCounter"
 url: ""
 markdown: kramdown
 permalink: /:path/
